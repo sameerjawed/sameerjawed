@@ -1,0 +1,93 @@
+*{
+margin: 0;padding: 0;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background: rgb(78, 73, 73);
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px ;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav ul li a{
+   
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 60px;
+    transition: 3s t;
+}
+nav  li  :hover{
+    color:dodgerblue;
+    font-size: 35px;
+}
+.logo:hover{margin-right: 20px;
+    color: dodgerblue; 
+    font-size: 50px ;
+
+}
+li{
+    display: inline;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 15% 0;
+    
+}
+.home-content{
+    max-width: 600px;
+    position: relative;
+    bottom: 200px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700 ;
+    
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home .home-content h1 h2 h3 p{
+    margin-left: 40px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+.image{
+    left: 95px;
+    transition: 3s ;
+}
+img{
+    max-width: 550px;
+    position: relative;
+    right: 140px; bottom: 230px;
+}
