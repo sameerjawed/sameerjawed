@@ -1,256 +1,371 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-/* body {
-    background: black;
-    color: white;
-} */
-
-header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 65px;
-    padding: 20px 10px;
-    background: rgba(0, 0, 0, 0.664);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-
-}
-
-.logo {
-    position: relative;
-    font-size: 30px;
-    color: white;
     text-decoration: none;
-    font-weight: 600;
-    /* position: sticky; */
+    list-style: none;
+    border: none;
+    outline: none;
 }
+:root{
+    --color-primary: #6f5ed6;
+    --color-warning: #f1b640;
+    --color-white: #FFFFFF;
+    --color-black: #3c3f41;
+    --color-dark: #000000;
 
-nav ul li a {
-
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    text-transform: uppercase;
-    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    transition: .4s ease;
 }
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-.logo:hover {
-    margin-right: 20px;
-    color: rgba(255, 255, 0, 0.823);
 }
-
-ul li a:hover {
-    color: rgba(255, 255, 0, 0.503);
+body{
+    color: var(--color-dark);
+    background: var(--color-white);
 }
-
-li {
-    display: inline;
-    
-}
-
-/* .home {
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 50px 15% 0;
-    background-color: black;
-
-} */
-
-.home-content {
-    margin-top: 3%;
-    margin-left: 2%;
-    position: absolute;
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
-.home-content{
-    justify-content: center;
-    text-align: center;
-}
-
-.home-content h3 {
-    font-size: 22px;
+h1,h2,h3,h4,h5,h6{
     font-weight: 700;
-
+    line-height: 130%;
+    color: var(--color-black);
 }
-
-    .home-content h1 {
-        font-size: 30px;
-        font-weight: 700;
-        margin: -3px 0;
-    }
-
-
-
-img {
-    width: 100vw;
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 44px;
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    color: var(--color-primary);
+    margin: auto;
+    margin-bottom: 4rem;
+}
+h2::before{
+    content: '';
+    width: 80%;
+    height: 4px;
+    background: var(--color-primary);
+    bottom: -10px;
+    left: 80%;
+    transform: translateX(-70%);
     position: absolute;
-    /* background-size: cover;
-    background-position: center; */
-    
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 28px;
+    color: var(--color-primary);
+}
+h5{
+    font-size: 20px;
+}
+p{
+    font-size: 19px;
+    line-height: 150%;
 }
 
-/* .search {    
-    position: absolute;
-    margin-left: 35rem;
-    top: 25px;
-} */
 
-.mobile-nav-icon {
-    color: black;
-    width: 2.8rem;
-    height: 2.5rem;
-
+.btn{
+    width: fit-content;
+    display: inline-block;
+    padding: 0px  30px;
+    background: var(--color-white);
+    color: var(--color-black);
+    box-shadow: var(--box-shadow);
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+.btn-primary{
+    height: 5vh;
+    font-weight: 600;
+    background: var(--color-primary);
+    border: 2px solid transparent;
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    justify-content: center;
+    bottom: 10px;
 }
 
-.mobile-navbar-btn {
-    display: none;
-    background: transparent;
-    cursor: pointer;
+.btn:hover{
+    background: white;
+    color: var(--color-black);
+    border-color: var(--color-warning);
 }
-
-.mobile-nav-icon[name="close-outline"] {
-    display: none;
+.btn-sm{
+    padding: 10px 20px;
+    border-radius: 0px !important;
 }
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section{
+    padding: 7rem 0;
+}
+/* write code here for navigation icons. */
 
-/* Start Here From to Media Qeries */
-@media (max-width:1000px) {
-    .mobile-navbar-btn {
-        display: block;
-        z-index: 999;
-        border: 4px solid black;
-        color: black;
-
-    }
-
-    nav {
-        display: none;
+    /* Start Here From Nav-bar section */
+    nav{
         width: 100%;
-        height: 100vh;
-        background:white;
-        position: absolute;
-        top: 0px;
-        left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-
-        transform: translateX(100%);
-        transition: all 0s linear;
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
+        background: var(--color-white);
+        height: 5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
     }
-    
-    header{
-        position: relative;
-    }
-    nav ul li a{
-        background: black;
-        color: white;
-    }
-
-    nav ul {
-        /* color: yellow; */
+    .nav-container{
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        position: relative;
-        bottom: 15rem;
+
+    }
+    .logo img{
+    position: relative;
+    right: 10rem;
+    width: 20rem; 
     }
 
-    .active nav {
-        transform: translateX(0);
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-    }
 
-    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
-        display: block;
-    }
+/* end here end nav bar */
 
-    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
-        display: none;
-    }
-}
-
-
-footer {
-    color: wheat;
-    /* position: absolute; */
-    justify-content: center;
-}
-
-.home-content h1{
-    font-size: 45px;
-    line-height: 60px;
-    font-family:'Courier New', Courier, monospace;
-}
-.typing{
-    font-size: 45px;
-    line-height: 60px;
-    font-family:'Courier New', Courier, monospace;
-}
-/* .home-content h1::after{
-    content: '|';
-    position: absolute;
-    right: 0;
-    width: 199%;
-    animation: typing 3s steps(26) alternate infinite line
-     1s infinite;
-
-} */
-
-.home-content a{
-    margin-top: 30px;
-    display: inline-block;
-    border-radius: 5px;
-    border: 2px solid wheat;
-    padding: 10px 25px;
-    color: wheat;
-    text-decoration: none;
-}
-
-.home-content .btn{
-    background-color: black;
-    color: wheat;
-    margin-top: 25px;
-    font-weight: 600;
-    margin-left: 10px;
-}
-.home-content .btn-a{
-    color: black;
-    background: yellow;
-    font-weight: 600;
-}
-.home-content .btn:hover{
-    color: black;
-    background: yellow;
-}
-
-.user-img{
+.nav-link{
     display: flex;
-    width: 400px;
+    align-items: center;
+    gap: 3.5rem;
+}
+.nav-link li a{
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--color-black);
+    position: relative;
+}
+.nav-link li a::before{
+    content: '';
     position: absolute;
-    left: 125%;
-    top: 0%;
-    /* margin-left: 50%; */
+    bottom: -6px;
+    height: 3px;
+    background: var(--color-black);
+    width: 0;
+    border-radius: 6px;
+    transition: var(--transition);
+}
+.nav-link li a:hover::before{
+    width: 100%;
+}
+.nav-link li .active::before{
+    width: 100%;
+}
+.nav-link li button{
+    background: transparent;
+    font-size: 22px;
+    color: var(--color-black);
+}
+.nav-link li button:hover{
+    transform: scale(1.3) rotate(300deg);
+    color: var(--color-primary);
+}
+/* start here from header section  */
+header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header-container{
+    display: grid;  
+    grid-template-columns: 3% auto 20rem;
+    gap: 5%;
+    align-items: center;
+}
+.header-social{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: relative;
+    top: -1rem;
+    padding: 2rem;
+}
+.header-social a{
+    font-size: 25px;
+    color: var(--color-black);
+    transition: var(--transition);
+}
+.header-social a:hover{
+    color: var(--color-primary);
+}
+.hero-image img{
+    width: 30vw;
+    /* margin-right: 30px; */
+    position: relative;
+    right: 7rem;
+}
+/* start here from moon efect */
+.nightMood{
+    --color-white:  #0a071a;
+    --color-black: #FFFFFF;
+    --color-dark: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(97, 97, 97, 0.6); 
+}
+
+.light{
+    position: relative;
+    left: 117px;
+}
+@media (max-width:1450px) {
+    .light{
+        position: relative;
+        left: 30px;
+    }
+}
+
+
+
+
+
+
+
+/* start practice navigation bar icons */
+.icons{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:1000px) {
+.icons{ display: block;
+}   
+}
+
+/* here we adjust the logo */
+
+@media (max-width:1500px) {
+    .logo img{
+        width: 15rem;
+        left: 3px;
+    }
+}
+@media (max-width:1000px) {
+    .logo img{
+        width: 20rem;
+        left: 15px;
+    }
+    .nav-link li a  {
+        position: absolute;
+        top: 100%;
+        right: -50rem;
+        height: 30vh;        
+    }
+}
+@media (max-width:1000px) {
+    .icons{
+        position: relative;
+        left: 25rem;
+        margin: 1px 5px;
+    }
+}
+@media (max-width:950px) {
+    .icons{
+        position: relative;
+        left: 23rem;
+        margin: 1px 5px;
+    }
+}
+@media (max-width:890px) {
+    .icons{
+        position: relative;
+        left: 22rem;
+        margin: 1px 5px;
+    }
+}
+@media (max-width:840px) {
+    .icons{
+        position: relative;
+        left: 20rem;
+        margin: 1px 5px;
+    }
+}
+@media (max-width:775px) {
+    .icons{
+        position: relative;
+        left: 18rem;
+        margin: 1px 5px;
+    }
+}
+@media (max-width:745px) {
+    .light{
+            position: relative;
+            left: 5px;       
+    }
+    .icons{
+        position: relative;
+        right: 2px;
+    }
+}
+@media (max-width:725px) {
+    .icons{
+            position: relative;
+            left: 15rem;   
+    }
+    .light{
+        position: relative;
+        right: 10px;
+    }
+}
+@media (max-width:720px) {
+    .light{
+        position: relative;
+        right: 15rem;
+    }
+    .logo img{
+        width: 15rem;
+    }
+    .icons{
+        position: relative;
+        right: 15px;
+    }
+}
+@media (max-width:640px) {
+    .light{
+        position: relative;
+        left: -40px;
+    }   
+}
+@media (max-width:590px) {
+    .icons{
+        position: relative;
+        left: 29%;
+    }
+    .light{
+        position: relative;
+        left: -100px;
+    }
+}
+@media (max-width:530px) {
+    .light{
+        position: relative;
+        left: -108px;
+    }
+}
+@media (max-width:510px) {
+    .light{
+        position: relative;
+        left: -108px;
+    }
 }
 
 
