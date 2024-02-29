@@ -16,6 +16,10 @@
 
     box-shadow: 0 2px 4px rgba(0,0,0,0.4);
     transition: .4s ease;
+
+    --card-bg-color:#fff;
+    --model-bg-color:#fff;
+    --bg-transparent-color:
 }
 html{
     scroll-behavior: smooth;
@@ -90,14 +94,18 @@ p{
     justify-content: center;
     align-items: center;
 }
+.btn-primary:hover{
+    color: var(--color-primary);
+    background: var(--color-warning);
+}
 .btn a{
     justify-content: center;
     bottom: 10px;
 }
 
 .btn:hover{
-    background: white;
-    color: var(--color-black);
+    background: var(--color-primary);
+    color: var(--color-warning);
     border-color: var(--color-warning);
 }
 .btn-sm{
@@ -233,12 +241,6 @@ header{
         left: 30px;
     }
 }
-
-
-
-
-
-
 
 /* start practice navigation bar icons */
 .icons{
