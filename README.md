@@ -1,3 +1,18 @@
+
+<style>
+    .span {
+      display: flex; 
+      justify-content: center; 
+      flex-wrap: nowrap; 
+      overflow-x: auto; 
+    }
+    
+    .span img {
+      margin-right: 10px; /* Adjust margin between images */
+    }
+  </style>
+
+
 <h1 align="center">Hi 👋, I'm Sameer Jawed</h1>
 <h3 align="center">Frontend Developer | UI/UX Designer | 🌟 Passionate about creating user-friendly web-pages/websites. With a strong foundation</h3>
 
