@@ -38,3 +38,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sameerjawed&show_icons=true&locale=en" alt="sameerjawed" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sameerjawed&" alt="sameerjawed" /></p>
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
