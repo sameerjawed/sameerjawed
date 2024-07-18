@@ -5,9 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sameerjawed" alt="sameerjawed" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/sameerjawed01" target="blank"><img src="https://img.shields.io/twitter/follow/sameerjawed01?logo=twitter&style=for-the-badge" alt="sameerjawed01" /></a> </p>
-<img alt="Coder GIF" height=250 width=350 src="https://physicsgurukul.files.wordpress.com/2019/02/character-1.gif" />
-<br>
+<div class="tenor-gif-embed" data-postid="24991520" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/scaler-create-impact-girl-boy-coding-gif-24991520">Scaler Create Impact GIF</a>from <a href="https://tenor.com/search/scaler-gifs">Scaler GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 - 🔭 I’m currently working on [Frontend Develpment](Dreamprovder.com)
 
