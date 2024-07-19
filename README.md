@@ -5,6 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sameerjawed" alt="sameerjawed" /></a> </p>
 
+<div>
 <img alt="Coder GIF" height=250 width=350 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
 <img alt="Coder GIF" height=250 width=350 src="https://miro.medium.com/v2/resize:fit:1360/0*7Q3yvSIv_t0ioJ-Z.gif" />
 
@@ -20,6 +21,7 @@
 - 📫 How to reach me **sameerzawed@gmail.com**
 
 - 📄 Know about my experiences [https://sameerjawed.github.io/sameerjawed/](https://sameerjawed.github.io/sameerjawed/)
+  </div>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/sameerjawed01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sameerjawed01" height="30" width="40" /></a>
