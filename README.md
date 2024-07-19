@@ -5,19 +5,18 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sameerjawed" alt="sameerjawed" /></a> </p>
 
-<img alt="Coder GIF" height=250 width=350 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
+<img alt="Coder GIF" height="250" width="350" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
-- 🔭 I’m currently working on [Frontend Develpment](Dreamprovder.com)
-
-- 🌱 I’m currently learning **Backend Development**
-
-- 🤝 I’m looking for help with **Working on live project.**
-
-- 👨‍💻 All of my projects are available at [https://sameerjawed.github.io/sameerjawed/](https://sameerjawed.github.io/sameerjawed/)
-
-- 📫 How to reach me **sameerzawed@gmail.com**
-
-- 📄 Know about my experiences [https://sameerjawed.github.io/sameerjawed/](https://sameerjawed.github.io/sameerjawed/)
+<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 20px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 10px; max-width: 800px; margin: 20px auto;">
+    <div style="flex: 1;">
+        <p>🔭 I’m currently working on <a href="https://dreamprovder.com">Frontend Development</a></p>
+        <p>🌱 I’m currently learning <strong>Backend Development</strong></p>
+        <p>🤝 I’m looking for help with <strong>Working on live project.</strong></p>
+        <p>👨‍💻 All of my projects are available at <a href="https://sameerjawed.github.io/sameerjawed/">https://sameerjawed.github.io/sameerjawed/</a></p>
+        <p>📫 How to reach me <strong>sameerzawed@gmail.com</strong></p>
+        <p>📄 Know about my experiences <a href="https://sameerjawed.github.io/sameerjawed/">https://sameerjawed.github.io/sameerjawed/</a></p>
+    </div>
+</div>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
