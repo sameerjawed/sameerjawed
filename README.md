@@ -6,6 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sameerjawed" alt="sameerjawed" /></a> </p>
 
 <img alt="Coder GIF" height=250 width=550 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" /><br>
+
     🔭 I’m currently working on Frontend Develpment
     🌱 I’m currently learning Backend Development
     🤝 I’m looking for help with Working on live project.
