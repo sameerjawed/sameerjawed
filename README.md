@@ -5,13 +5,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sameerjawed" alt="sameerjawed" /></a> </p>
 
-<img alt="Coder GIF" height=250 width=350 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" /><br>
-<span style="font-size: 14px;">I'm currently working on **Frontend Development**</span><br>
-<span style="font-size: 14px;">I'm currently learning **Backend Development**</span><br>
-<span style="font-size: 14px;">I'm looking for help with **Working on live project.**</span><br>
-<span style="font-size: 14px;">All of my projects are available at [https://sameerjawed.github.io/sameerjawed/](https://sameerjawed.github.io/sameerjawed/)</span><br>
-<span style="font-size: 14px;">How to reach me **sameerzawed@gmail.com**</span><br>
-<span style="font-size: 14px;">Know about my experiences [https://sameerjawed.github.io/sameerjawed/](https://sameerjawed.github.io/sameerjawed/)</span>
+<img alt="Coder GIF" height=250 width=550 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" /><br>
+    🔭 I’m currently working on Frontend Develpment
+    🌱 I’m currently learning Backend Development
+    🤝 I’m looking for help with Working on live project.
+    👨‍💻 All of my projects are available at https://sameerjawed.github.io/sameerjawed/
+    📫 How to reach me sameerzawed@gmail.com
+    📄 Know about my experiences https://sameerjawed.github.io/sameerjawed/
 - 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
